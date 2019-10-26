@@ -38,7 +38,7 @@ class Song
     unique_genres
   end
 
-  def genre_count
+  def self.genre_count
     @@genres.length
   end
 
