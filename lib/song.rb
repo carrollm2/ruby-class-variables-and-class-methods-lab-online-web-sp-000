@@ -23,6 +23,7 @@ class Song
     @@artists.each do |a|
       if not unique_artists.include?(a)
         unique.artists.push(a)
+      end
     end
     unique_artists
   end
