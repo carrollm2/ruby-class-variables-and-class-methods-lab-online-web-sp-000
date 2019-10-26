@@ -15,7 +15,7 @@ class Song
   end
 
   def count
-    self.name.length
+    name.length
   end
 
   def artists
