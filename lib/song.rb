@@ -11,4 +11,17 @@ class Song
     @genre = genre
   end
 
+  def count
+    @@count
+  end
+
+  def artists
+    @@artists
+  end
+
+  def genres
+    @@genres
+  end
+
+
 end
