@@ -38,8 +38,8 @@ class Song
     unique_genres
   end
 
-  #def genre_count
-
-  #end
+  def genre_count
+    @@genres.length
+  end
 
 end
